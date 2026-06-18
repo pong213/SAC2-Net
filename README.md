@@ -32,7 +32,7 @@ Based on the aligned representations, Complementary-Consensus Fusion (CCF) first
 * [Acknowledgements](#acknowledgements)
 * [Citation](#citation)
 
-## Installation
+## [Installation](#installation)
 
 ### 1. Clone the repository
 
