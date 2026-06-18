@@ -54,7 +54,7 @@ conda activate sac2net
 pip install -r requirements.txt
 ```
 
-## Data Preparation
+## Data Preparation<a id="data-preparation"></a>
 
 ### Preprocessing
 
@@ -143,7 +143,7 @@ experiment/utils/au_textual_prompt_templates.json
 
 The text branch is used only during training for semantic alignment and is not required during inference.
 
-## SASA Pretraining
+## SASA Pretraining<a id="sasa-pretraining"></a>
 
 The visual encoders can be pretrained using the SASA objective before downstream MER training.
 
@@ -170,7 +170,7 @@ Adjust `--epochs`, `--batch_size` and `--num_workers` according to the actual en
 We also provide the CK+-pretrained weights ([link](https://)) used in our experiments.
 [CK+](https://www.jeffcohn.net/wp-content/uploads/2020/02/CVPR2010_CK2.pdf.pdf) is a Macro-expression dataset and is suitable for transfer learning in our task.
 
-## Training
+## Training<a id="training"></a>
 
 ### LOSO evaluation
 
@@ -239,7 +239,7 @@ python train_cross_dataset.py \
 
 Set `--train_dataset casme2` to train on CASME II and evaluate on SMIC.
 
-## Evaluation
+## Evaluation<a id="evaluation"></a>
 
 Training scripts save the ground-truth labels and model predictions to Excel files. Use `cal_metrics.py` to compute the final recognition metrics:
 
@@ -268,7 +268,7 @@ The evaluation script reports:
 * **Unweighted F1-score (UF1)**: macro-average of the class-wise F1-scores
 * **Unweighted Average Recall (UAR)**: macro-average of the class-wise recalls
 
-## Acknowledgements
+## Acknowledgements<a id="acknowledgements"></a>
 
 This project builds upon the following open-source projects and public datasets:
 
@@ -284,9 +284,9 @@ This project builds upon the following open-source projects and public datasets:
 
 We thank the authors and maintainers of these projects and datasets for making their work available to the research community.
 
-## Citation
+## Citation<a id="citation"></a>
 
-Please cite our paper if SAC²-Net is useful for your research. The complete BibTeX entry will be added after publication.
+If you find our code or paper is useful for your research, please consider citing:
 
 ```bibtex
 @article{sac2net2026,
