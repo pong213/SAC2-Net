@@ -174,14 +174,14 @@ We also provide the CK+-pretrained weights ([link](https://)) used in our experi
 
 ### LOSO evaluation
 
-Use `train_loso.py` for leave-one-subject-out (LOSO) cross-validation:
+Use `train_loso_ddp.py` for leave-one-subject-out (LOSO) cross-validation:
 
 ```bash
-python train_loso.py \
+python train_loso_ddp.py \
     --dataset_annotation_path /path/to/annotations.xlsx \
     --dataset_root /path/to/dataset \
-    --benchmark casme2_5cls \
-    --output_excel ./experiment_results/casme2_5cls_results.xlsx \
+    --benchmark casme_cube_7cls \
+    --output_excel ./experiment_results/casme_cube_7cls_loso_results.xlsx \
     --epochs 200 \
     --batch_size 64 \
     --num_workers 32 \
@@ -198,6 +198,22 @@ Supported values for `--benchmark` are:
 | `casme_cube_4cls` | CAS(ME)³, four classes          |
 | `casme_cube_7cls` | CAS(ME)³, seven classes         |
 | `megc2019_cd`     | MEGC2019-CD composite benchmark |
+
+For **multi-GPU LOSO training**, use PyTorch DistributedDataParallel with `torchrun`.
+
+Example using 2 GPUs:
+
+```bash
+torchrun --nproc_per_node=2 train_loso_ddp.py \
+    --dataset_annotation_path /path/to/annotations.xlsx \
+    --dataset_root /path/to/dataset \
+    --benchmark casme_cube_7cls \
+    --output_excel ./experiment_results/casme_cube_7cls_loso_results.xlsx \
+    --epochs 200 \
+    --batch_size 32 \
+    --num_workers 16 \
+    --weights ./pretrained_weights/sasa_pretrained_weights.pth
+```
 
 The script trains one model for each held-out subject and writes the aggregated predictions and labels to the specified Excel file.
 
