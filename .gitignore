@@ -1,0 +1,61 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+
+# Environments
+venv/
+env/
+.venv/
+conda-env/
+
+# IDE
+.vscode/
+.idea/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Data
+data/
+dataset/
+datasets/raw/
+datasets/processed/
+frames/
+optical_flow/
+motion_magnification/
+
+# Model files
+checkpoints/
+pretrained/
+weights/
+*.pth
+*.pt
+*.ckpt
+*.onnx
+
+# Experimental outputs
+outputs/
+results/
+logs/
+runs/
+wandb/
+tensorboard/
+
+# Temporary files
+tmp/
+temp/
+*.log
+
+# Operating systems
+.DS_Store
+Thumbs.db
+
+# Secrets and local configurations
+.env
+*.key
+secrets.yaml
+config_local.yaml

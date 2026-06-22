@@ -1,0 +1,290 @@
+{
+    "base_templates": [
+        "The face shows {}.",
+        "The facial muscles exhibit {}.",
+        "The facial expression is characterized by {}.",
+        "The subject displays {}.",
+        "The facial movement involves {}.",
+        "Facial analysis indicates {}.",
+        "We can observe {}."
+    ],
+    "1": [
+        "inner eyebrows raised upwards",
+        "inner brows lifted",
+        "brows pulled up at the center",
+        "the inner corners of the eyebrows moved upwards"
+    ],
+    "l1": [
+        "left inner eyebrow raised upwards",
+        "left inner brow lifted",
+        "left brow pulled up at the center",
+        "the inner corner of the left eyebrow moved upwards"
+    ],
+    "r1": [
+        "right inner eyebrow raised upwards",
+        "right inner brow lifted",
+        "right brow pulled up at the center",
+        "the inner corner of the right eyebrow moved upwards"
+    ],
+    "2": [
+        "outer eyebrows raised upwards",
+        "the outer tails of the eyebrows raised",
+        "outer brows lifted",
+        "the outer corners of the eyebrows moved upwards"
+    ],
+    "l2": [
+        "left outer eyebrow raised upwards",
+        "the outer tail of the left eyebrow raised",
+        "left outer brow lifted",
+        "the outer corner of the left eyebrow moved upwards"
+    ],
+    "r2": [
+        "right outer eyebrow raised upwards",
+        "the outer tail of the right eyebrow raised",
+        "right outer brow lifted",
+        "the outer corner of the right eyebrow moved upwards"
+    ],
+    "4": [
+        "eyebrows lowered and drawn together",
+        "eyebrows moved downwards and together",
+        "inner eyebrows pulled down and inwards",
+        "eyebrows furrowed downwards"
+    ],
+    "l4": [
+        "left eyebrow lowered and drawn",
+        "left eyebrow moved downwards",
+        "left inner eyebrow pulled down and inwards",
+        "left eyebrow furrowed downwards"
+    ],
+    "r4": [
+        "right eyebrow lowered and drawn",
+        "right eyebrow moved downwards",
+        "right inner eyebrow pulled down and inwards",
+        "right eyebrow furrowed downwards"
+    ],
+    "5": [
+        "upper eyelids raised",
+        "eyes widened",
+        "upper lids elevated"
+    ],
+    "l5": [
+        "left upper eyelid raised",
+        "left eye widened",
+        "left upper lid elevated"
+    ],
+    "r5": [
+        "right upper eyelid raised",
+        "right eye widened",
+        "right upper lid elevated"
+    ],
+    "6": [
+        "cheeks raised toward eyes",
+        "cheeks lifted upwards",
+        "skin below the eyes bunching up",
+        "lower eyelids pushed up from below"
+    ],
+    "l6": [
+        "left cheek raised towards eye",
+        "left cheek lifted upwards",
+        "skin below the left eye bunching up",
+        "left lower eyelid pushed up from below"
+    ],
+    "r6": [
+        "right cheek raised towards eye",
+        "right cheek lifted upwards",
+        "skin below the right eye bunching up",
+        "right lower eyelid pushed up from below"
+    ],
+    "7": [
+        "eyelids tightened and narrowed",
+        "eyelids squinting",
+        "both upper and lower lids moved toward each other",
+        "lids pressed together slightly"
+    ],
+    "l7": [
+        "left eyelid tightened and narrowed",
+        "left eyelid squinting",
+        "both upper and lower left lids moved toward each other",
+        "left lids press together slightly"
+    ],
+    "r7": [
+        "right eyelid tightened and narrowed",
+        "right eyelid squinting",
+        "both upper and lower right lids moved toward each other",
+        "right lids press together slightly"
+    ],
+    "9": [
+        "nose bridge wrinkled upwards",
+        "nose wrinkling upwards",
+        "skin on the nose wrinkled",
+        "nose bridge skin bunching up"
+    ],
+    "l9": [
+        "the left side of the nose bridge wrinkled upwards",
+        "the left side of the nose wrinkling upwards",
+        "skin on the left side of the nose wrinkled",
+        "left nose bridge skin bunching up"
+    ],
+    "10": [
+        "upper lip raised exposing upper teeth",
+        "lifted upper lip",
+        "upper lip pulled upwards"
+    ],
+    "l10": [
+        "left upper lip raised",
+        "lifted left upper lip",
+        "left upper lip pulled upwards"
+    ],
+    "r10": [
+        "right upper lip raised",
+        "lifted right upper lip",
+        "right upper lip pulled upwards"
+    ],
+    "12": [
+        "lip corners pulled upwards and outwards",
+        "the corners of the mouth pulled upwards",
+        "mouth corners lifted obliquely",
+        "the corners of the mouth raised diagonally"
+    ],
+    "l12": [
+        "left lip corner pulled upwards",
+        "the left corner of the mouth pulled upwards",
+        "left mouth corner lifted obliquely",
+        "the left corner of the mouth raised diagonally"
+    ],
+    "r12": [
+        "right lip corner pulled upwards",
+        "the right corner of the mouth pulled upwards",
+        "right mouth corner lifted obliquely",
+        "the right corner of the mouth raised diagonally"
+    ],
+    "13": [
+        "cheeks puffed outwards"
+    ],
+    "14": [
+        "lip corners pulled inwards",
+        "the corners of the mouth tightened inwards",
+        "dimples formed at mouth corners",
+        "mouth corners dimpling",
+        "mouth corners drawn backwards",
+        "lips pressed together at the corners"
+    ],
+    "l14": [
+        "left lip corner pulled inwards",
+        "the left corner of the mouth tightened inwards",
+        "a dimple formed at the left mouth corner",
+        "left mouth corner dimpling",
+        "left mouth corner drawn backwards",
+        "lip pressed together at the left corner"
+    ],
+    "r14": [
+        "right lip corner pulled inwards",
+        "the right corner of the mouth tightened inwards",
+        "a dimple formed at the right mouth corner",
+        "right mouth corner dimpling",
+        "right mouth corner drawn backwards",
+        "lip pressed together at the right corner"
+    ],
+    "15": [
+        "the corners of the mouth pulled downwards",
+        "mouth corners depressed",
+        "lip corners pulled downwards",
+        "mouth angles descended"
+    ],
+    "l15": [
+        "the left corner of the mouth pulled downwards",
+        "left mouth corner depressed",
+        "left lip corner pulled downwards",
+        "left mouth angle descended"
+    ],
+    "r15": [
+        "the right corner of the mouth pulled downwards",
+        "right mouth corner depressed",
+        "right lip corner pulled downwards",
+        "right mouth angle descended"
+    ],
+    "16": [
+        "lower lip pulled downwards",
+        "lower lip depressed",
+        "chin muscles stretched down"
+    ],
+    "17": [
+        "chin raised",
+        "chin skin pushed upwards",
+        "dimpling and wrinkling on the chin"
+    ],
+    "18": [
+        "lips puckered forward",
+        "mouth narrowed and protruding"
+    ],
+    "20": [
+        "lips stretched horizontally",
+        "mouth corners pulled sideways horizontally",
+        "lip corners pulled straight back",
+        "lips widened without raising",
+        "mouth corners drawn laterally"
+    ],
+    "l20": [
+        "left lip stretched horizontally",
+        "left mouth corner pulled sideways horizontally",
+        "left lip corner pulled straight back",
+        "left lip widened without raising",
+        "left mouth corner drawn laterally"
+    ],
+    "r20": [
+        "right lip stretched horizontally",
+        "right mouth corner pulled sideways horizontally",
+        "right lip corner pulled straight back",
+        "right lip widened without raising",
+        "right mouth corner drawn laterally"
+    ],
+    "23": [
+        "lips tightened and narrowed",
+        "lips pressed together lightly",
+        "the red part of the lips becoming less visible",
+        "lips compressed against each other"
+    ],
+    "24": [
+        "lips pressed firmly together",
+        "lips rolled inwards with force",
+        "the upper and lower lips compressed against each other",
+        "both lips moved toward each other and compressed"
+    ],
+    "25": [
+        "lips slightly parted",
+        "mouth opened minimally",
+        "lips separated",
+        "a small gap appearing between the lips",
+        "the upper and lower lips moved apart"
+    ],
+    "26": [
+        "jaw dropped downwards",
+        "mouth opened widely",
+        "mouth opening with the jaw moving downwards",
+        "mouth opening through jaw depression"
+    ],
+    "28": [
+        "lips sucked inwards into the mouth",
+        "lips rolled in with no red visible",
+        "lips drawn inwards and pressed against the teeth",
+        "lips rolled inwards over the teeth"
+    ],
+    "31": [
+        "jaw muscles tightened and clenched",
+        "jaw clenched tightly",
+        "masseter muscle contracting forcefully"
+    ],
+    "38": [
+        "nostrils dilated outwards",
+        "nose opening flaring outwards",
+        "the nostrils widening and flaring outwards",
+        "nostril wings pulled outwards and open",
+        "nostrils flared open on both sides"
+    ],
+    "39": [
+        "nostrils compressed and narrowed inwards",
+        "the sides of the nose pulled in",
+        "nostril wings pulled inwards and closed",
+        "nostrils compressed to reduce the opening"
+    ]
+}
